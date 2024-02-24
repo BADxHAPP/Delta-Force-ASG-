@@ -1,0 +1,41 @@
+* {margin: 0;
+   padding: 0;
+   font-family: arial;
+    box-sizing: border-box;
+}
+
+body {background-color: #696969;
+
+#wrapper {
+   max-width: 1200;
+   margin: 0 auto;
+   background-color: white;
+}
+
+    a.menu {
+        display: inline-block;
+        width: 25%;
+        padding: 20px 30px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        background-color:  mediumaquamarine;
+    
+          
+            
+    }
+    a.menu:hover {
+        border-bottom: 10px solid red;
+        
+    }
+    
+    .active {
+        background-color: crimson;
+    }
+    
+    article {
+        margin-top:30px;
+        margin-bottom: 20px;
+    }
+    
+    
